@@ -1,0 +1,171 @@
+{
+    "restaurants": [{
+            "name": "Cajun Crab Shack",
+            "foodType": "Cajun",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.0,
+            "longitude": 10.0
+        },
+        {
+            "name": "Dave's Lobster House",
+            "foodType": "Seafood",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.5,
+            "longitude": 10.5
+        },
+        {
+            "name": "All Season's Table",
+            "foodType": "Chinese",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 9.5,
+            "longitude": 9.5
+        },
+        {
+            "name": "IHOP",
+            "foodType": "American",
+            "mealType": [
+                0
+            ],
+            "latitude": 11.0,
+            "longitude": 11.0
+        },
+        {
+            "name": "Denny's",
+            "foodType": "American",
+            "mealType": [
+                0
+            ],
+            "latitude": 9.0,
+            "longitude": 9.0
+        },
+        {
+            "name": "Generic Restaurant I",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.1,
+            "longitude": 10.1
+        },
+        {
+            "name": "Generic Restaurant II",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.2,
+            "longitude": 10.2
+        },
+        {
+            "name": "Generic Restaurant III",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.3,
+            "longitude": 10.3
+        },
+        {
+            "name": "Generic Restaurant IV",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.4,
+            "longitude": 10.4
+        },
+        {
+            "name": "Generic Restaurant V",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.4,
+            "longitude": 10.4
+        },
+        {
+            "name": "Generic Restaurant VI",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.5,
+            "longitude": 10.5
+        },
+        {
+            "name": "Generic Restaurant I",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.1,
+            "longitude": 10.1
+        },
+        {
+            "name": "Generic Restaurant II",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.2,
+            "longitude": 10.2
+        },
+        {
+            "name": "Generic Restaurant III",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.3,
+            "longitude": 10.3
+        },
+        {
+            "name": "Generic Restaurant IV",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.4,
+            "longitude": 10.4
+        },
+        {
+            "name": "Generic Restaurant V",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.4,
+            "longitude": 10.4
+        },
+        {
+            "name": "Generic Restaurant VI",
+            "foodType": "Indian",
+            "mealType": [
+                1,
+                2
+            ],
+            "latitude": 10.5,
+            "longitude": 10.5
+        }
+    ]
+}

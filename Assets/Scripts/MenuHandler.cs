@@ -7,29 +7,46 @@ public class MenuHandler : MonoBehaviour
     public Animation menu;
     public GameObject closeMenu;
 
-    bool menuIsOut = true;
+    public bool menuIsOnScreen = true;
+
+    private ScreenChange sc;
 
     public void Start()
     {
+        sc = GameObject.FindObjectOfType<ScreenChange>();
+
+        if(menu.transform.localPosition.x <= 470)
+        {
+            menuIsOnScreen = false;
+        }
+        else
+        {
+            menuIsOnScreen = true;
+        }
         MenuOut();
     }
     public void MenuIn()
     {
-        if (menuIsOut)
+        if (!menuIsOnScreen)
         {
             closeMenu.SetActive(true);
-            menu.Play("MenuIn");
-            menuIsOut = false;
+            menu.Play("Menu_Slide_In");
+            menuIsOnScreen = true;
         }
     }
 
     public void MenuOut()
     {
-        if (!menuIsOut)
+        if (menuIsOnScreen)
         {
             closeMenu.SetActive(false);
-            menu.Play("MenuOut");
-            menuIsOut = true;
+            menu.Play("Menu_Slide_Out");
+            menuIsOnScreen = false;
         }
+    }
+
+    public void CallLoadScene(string sceneName)
+    {
+       sc.CallLoadScene(sceneName);
     }
 }

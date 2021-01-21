@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 1a7fecd3fcf6400489bb0c130fbc0d78
+  - enabled: 1
+    path: Assets/Scenes/Search.unity
+    guid: f56cae4662cb3e64fb3be35744fec245
+  - enabled: 1
+    path: Assets/Scenes/Payment.unity
+    guid: 992156f11486f8c4e9eae10c42664bcb
+  - enabled: 1
+    path: Assets/Scenes/RestaurantList.unity
+    guid: fef2bf0ed750cf54b9e70b92c6b90556
+  - enabled: 1
+    path: Assets/Scenes/RestaurantInfo.unity
+    guid: 484e2373430e54f478916d21b09596d7
   m_configObjects: {}
